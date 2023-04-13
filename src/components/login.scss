@@ -1,0 +1,144 @@
+
+.container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 20px;
+}
+.login-form {
+    justify-content: center;
+  align-items: center; 
+ width: 300px;
+  height: 406px;
+  left: 490px;
+  top: 157px;
+}
+
+h2 {
+    width: 212px;
+  height: 80px;
+  left: 534px;
+  top: 157px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  color: #224957;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-input,
+.password-input {
+  width: 300px;
+  height: 45px;
+  left: 490px;
+  top: 518px;
+  margin-bottom: 25px;
+  background: #224957;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  color:white;
+  font-family: 'Lexend Deca';
+font-style: normal;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 293px;
+height: 17px;
+left: 493px;
+top: 477px;
+
+}
+
+.remember-me {
+    display: flex;
+  align-items: center;
+   
+ width: 108px;
+height: 17px;
+left: 518px;
+top: 477px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+
+text-align: center;
+
+color: #093545;
+
+}
+
+.forgot-password {
+  flex-grow: 1;
+    text-align: right;
+  
+a{
+width: 128px;
+height: 17px;
+left: 658px;
+top: 477px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+}
+.login-btn {
+  width: 300px;
+  height: 45px;
+  left: 490px;
+  top: 518px;
+  background: #20df7f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+  label {
+    width: 44px;
+    height: 20px;
+    left: 618px;
+    top: 531px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #224957;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+  }
+} 
