@@ -1,14 +1,13 @@
 import Login from "./components/Login";
 import Footer from "./components/Footer";
+import Portfolio from "./pages/Portfolio";
 import "./App.css";
+import { useState } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <Login />
-      <Footer />
-    </div>
-  );
+  const [show, setShow] = useState(false);
+
+  return <div className="App"></div>;
 }
 
 export default App;

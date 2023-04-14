@@ -1,6 +1,6 @@
 import React from "react";
 import CardItem from "../components/CardItem";
-import data from "../assests/data/portfolio_data";
+import data from "../assets/data/portfolio_data";
 import "../styling/portfolio.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 const Portfolio = () => {
