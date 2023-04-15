@@ -34,7 +34,7 @@ const data = [
     image: require("../images/img7.png"),
     link: "https://github.com/rahulvijay81/portfolio?ref=reactjsexample.com",
   },
-  ,
+
   {
     id: 8,
     image: require("../images/img8.png"),

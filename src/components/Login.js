@@ -1,19 +1,15 @@
 import React, { useState } from "react";
 import "./login.scss";
 
-
-const Login = () => {
+const Login = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
 
-  
-    
   const handleLogin = (e) => {
     e.preventDefault();
-    console.log("Login clicked");
+    props.setShow(true);
   };
-
 
   return (
     <div className="container">
