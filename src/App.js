@@ -1,18 +1,13 @@
-import Loginpage from "./components/Loginpage";
-import Portfolio from "./pages/Portfolio";
-import "./App.css";
-import { useState } from "react";
+import Login from './components/Login';
+import Footer from './components/Footer';
+import './App.css';
 
 function App() {
-  const [show, setShow] = useState(false);
-
   return (
-    <>
-      <div className="App">
-        {show ? <Portfolio /> : <Loginpage setShow={setShow} />}
-      </div>
-      ;
-    </>
+    <div className="App">
+     <Login/>
+    <Footer/>
+    </div>
   );
 }
 
