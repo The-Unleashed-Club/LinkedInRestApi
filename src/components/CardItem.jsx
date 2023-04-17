@@ -13,7 +13,7 @@ const CardItem = (props) => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <a href={props.url} target="_blank">
+          <a href={props.url} target="_blank" rel="noreferrer">
             <Button variant="primary">More {">>"}</Button>
           </a>
         </Card.Body>
