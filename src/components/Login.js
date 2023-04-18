@@ -19,6 +19,9 @@ const Login = (props) => {
       signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
           // Signed in 
+          // test username and password are 
+          // admin@admin.in
+          // password  
           const user = userCredential.user;
           
           props.setShow(true);
@@ -31,6 +34,8 @@ const Login = (props) => {
 
 
   };
+
+  
   const toggleButton = () => {
     if (darkTheme === true) {
       setHeading("#ffffff");
