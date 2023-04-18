@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {auth , signInWithEmailAndPassword } from '../firebase/firebase-utilities';
 import "./login.scss";
 
 const Login = (props) => {
@@ -13,7 +14,22 @@ const Login = (props) => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    props.setShow(true);
+    
+
+      signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Signed in 
+          const user = userCredential.user;
+          
+          props.setShow(true);
+          // ...
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+        });
+
+
   };
   const toggleButton = () => {
     if (darkTheme === true) {
