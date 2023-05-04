@@ -82,7 +82,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/silenteyesoncode"><img src="https://avatars.githubusercontent.com/u/46851135?v=4?s=100" width="100px;" alt="silenteyesoncode"/><br /><sub><b>silenteyesoncode</b></sub></a><br /><a href="#design-silenteyesoncode" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/silenteyesoncode"><img src="https://avatars.githubusercontent.com/u/46851135?v=4?s=100" width="100px;" alt="silenteyesoncode"/><br /><sub><b>silenteyesoncode</b></sub></a><br /><a href="#design-silenteyesoncode" title="Design">🎨</a> <a href="https://github.com/The-Unleashed-Club/LinkedInRestApi/commits?author=silenteyesoncode" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
