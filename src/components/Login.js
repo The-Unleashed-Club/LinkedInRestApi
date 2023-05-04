@@ -54,7 +54,7 @@ const Login = (props) => {
 
   return (
     <>
-      <button onClick={toggleButton}>Change</button>
+      {/* <button onClick={toggleButton}>Change</button> */}
       <div className="container" style={{ backgroundColor: bg }}>
         <div className="login-form">
           <h2 style={{ color: heading }}>Sign in</h2>
