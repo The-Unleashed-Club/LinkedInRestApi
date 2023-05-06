@@ -90,6 +90,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/silenteyesoncode"><img src="https://avatars.githubusercontent.com/u/46851135?v=4?s=100" width="100px;" alt="silenteyesoncode"/><br /><sub><b>silenteyesoncode</b></sub></a><br /><a href="#design-silenteyesoncode" title="Design">🎨</a> <a href="https://github.com/The-Unleashed-Club/LinkedInRestApi/commits?author=silenteyesoncode" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/hamma741"><img src="https://avatars.githubusercontent.com/u/77831992?v=4?s=100" width="100px;" alt="hamma741"/><br /><sub><b>hamma741</b></sub></a><br /><a href="https://github.com/The-Unleashed-Club/LinkedInRestApi/commits?author=hamma741" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/naincy975"><img src="https://avatars.githubusercontent.com/u/74168443?v=4?s=100" width="100px;" alt="Naincy Rastogi"/><br /><sub><b>Naincy Rastogi</b></sub></a><br /><a href="https://github.com/The-Unleashed-Club/LinkedInRestApi/commits?author=naincy975" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
