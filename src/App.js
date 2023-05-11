@@ -1,4 +1,5 @@
 import Loginpage from "./components/Loginpage";
+import Signup from "./components/Signup";
 import Portfolio from "./pages/Portfolio";
 import "./App.css";
 import { useState } from "react";
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       <div className="App">
-        {show ? <Portfolio /> : <Loginpage setShow={setShow} />}
+        {show ? <Portfolio /> : <Signup setShow={setShow} />}
       </div>
       ;
     </>

@@ -34,5 +34,5 @@ const db = getFirestore(app);
 export  {
   auth,
   createUserWithEmailAndPassword,
-  signInWithEmailAndPassword
+  signInWithEmailAndPassword,collection,addDoc,db
 }
